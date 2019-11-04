@@ -13,22 +13,31 @@
     border: 2px solid gray;
     display: flex;
     flex-wrap: nowrap;
+    background-color: white;
+    
 }
 
 div {
-    width: 10px;
-    height: 10px;
+    width: 100px;
+    height: 100px;
     background-color: black;
     color: white;
-    
+    justify-content: flex-end;
   }
   .div1 {
-
+    order: 1;
   }
   
   .div2 {
 
+    order: 2;
   }
+
+  .div3 {
+
+    order: 3;
+  }
+
 
 
 /* CSS FILE COMMENTS [ INLINE ] */
