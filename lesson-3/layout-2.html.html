@@ -7,17 +7,61 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Challenge #3</title>
-  <link href="css/main.css" rel="stylesheet">
-  <script>
+  <!-- <link href="css/main.css" rel="stylesheet"> -->
+ <style>
+   .wrapper {
+      width: 650px;
+      height: 540px;
+      margin: 50px auto 0;
+      border: 2px solid gray;
+      display: flex;
+      flex-direction: row;
+      background-color: white;
+   }
+
+    .spacer {
+      width: 650px;
+      height: 450px;
+      display: flex;
+      background-color: white;
+    }
+
+   div {
+      width: 130px;
+      height: 130px;
+      background-color: black;
+      color: white;
+   }
+   /* .div1{
+    } */
+
+    .div2 {
+      align-self:center;
+      margin-right:auto;
+      margin-left: auto;
+    }
+
+    .div3{
+      align-self: flex-end;
+    }
+
+  }
+ </style>
+ 
+ <script>
     // JAVASCRIPT
   </script>
 </head>
 <body>
 
   <!-- WRAPPER -->
-  <div class="wrapper1"></div>
-  <div class="wrapper1"></div>
-  <div class="wrapper1"></div>
+  <div class = "wrapper">
+      <div class="spacer">
+          <div class="div1">div1</div>
+          <div class="div2">div2</div>
+          <div class="div3">div3</div>
+      </div>
+  </div>
   <!--// ENDS: WRAPPER -->
 
 </body>
